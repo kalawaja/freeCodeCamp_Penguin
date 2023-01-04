@@ -195,15 +195,122 @@ body {
 ```
 
 ```css
-
+.back-mountain {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+  position: absolute;
+}
 ```
 
 ```css
-
+.back-mountain {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+  position: absolute;
+  z-index: 1;
+}
 ```
 
 ```css
+.back-mountain {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+  position: absolute;
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 110px;
+  top: 225px;
+}
+```
 
+```html
+  <body>
+    <div class="left-mountain"></div>
+    <div class="back-mountain"></div>
+    <div class="sun"></div>
+    <div class="penguin"></div>
+    <div class="ground"></div>
+  </body>
+```
+
+```css
+.sun {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+```
+
+```css
+.sun {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 50%;
+}
+```
+
+```css
+.sun {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 50%;
+  top: -75px;
+  right: -75px;
+}
+```
+
+```html
+    <div class="penguin">
+      <div class="penguin-head"></div>
+      <div class="penguin-body"></div>
+    </div>
+```
+
+```css
+.penguin {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 75px;
+  position: relative;
+  z-index: 4;
+}
+```
+
+```css
+.penguin-head {
+  width: 50%;
+  height: 45%;
+  background: linear-gradient(45deg, gray, rgb(239, 240, 228));
+}
+```
+
+```css
+.penguin-head {
+  width: 50%;
+  height: 45%;
+  background: linear-gradient(
+    45deg,
+    gray,
+    rgb(239, 240, 228)
+  );
+  border-radius: 70% 70% 65% 65%;
+}
+```
+
+```css
+.penguin-body {
+  width: 53%;
+  height: 45%;
+  background: linear-gradient(45deg, rgb(134, 133, 133) 0%, rgb(234, 231, 231) 25%, white 67%);
+}
 ```
 
 ```css
