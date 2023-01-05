@@ -698,19 +698,46 @@ body {
 ```
 
 ```css
+.eye.left {
+  left: 25%;
+}
 
+.eye.right {
+  right: 25%;
+}
+```
+
+```html
+      <div class="penguin-head">
+        <div class="face left"></div>
+        <div class="face right"></div>
+        <div class="chin"></div>
+        <div class="eye left">
+          <div class="eye-lid"></div>
+        </div>
+        <div class="eye right">
+          <div class="eye-lid"></div>
+        </div>
+      </div>
 ```
 
 ```css
-
+.eye-lid {
+  width: 150%;
+  height: 100%;
+  background-color: var(--penguin-face);
+}
 ```
 
 ```css
-
-```
-
-```css
-
+.eye-lid {
+  width: 150%;
+  height: 100%;
+  background-color: var(--penguin-face);
+  top: 25%;
+  left: -23%;
+  border-radius: 50%;
+}
 ```
 
 ```css
