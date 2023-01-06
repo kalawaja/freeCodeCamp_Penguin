@@ -1454,18 +1454,136 @@ body {
 ```
 
 ```css
-
+@keyframes wave {
+  
+}
 ```
 
 ```css
+@keyframes wave {
+  10% {
 
+  }
+
+  20% {
+
+  }
+
+  30% {
+
+  }
+
+  40% {
+
+  }
+}
 ```
 
 ```css
+@keyframes wave {
+  10% {
+    transform: rotate(110deg) scaleX(-1);
+  }
 
+  20% {
+
+  }
+
+  30% {
+
+  }
+
+  40% {
+
+  }
+}
 ```
 
 ```css
+@keyframes wave {
+  10% {
+    transform: rotate(110deg) scaleX(-1);
+  }
 
+  20% {
+    transform: rotate(130deg) scaleX(-1);
+  }
+
+  30% {
+
+  }
+
+  40% {
+
+  }
+}
 ```
 
+```css
+@keyframes wave {
+  10% {
+    transform: rotate(110deg) scaleX(-1);
+  }
+
+  20% {
+    transform: rotate(130deg) scaleX(-1);
+  }
+
+  30% {
+    transform: rotate(110deg) scaleX(-1);
+  }
+
+  40% {
+    transform: rotate(130deg) scaleX(-1);
+  }
+}
+```
+
+```css
+.arm.left {
+  top: 35%;
+  left: 5%;
+  transform-origin: top left; 
+  transform: rotate(130deg) scaleX(-1);
+  animation-name: wave;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+```
+
+```css
+.penguin:active {
+  transform: scale(1.5);
+}
+```
+
+```css
+.penguin:active {
+  transform: scale(1.5);
+  cursor: not-allowed;
+}
+```
+
+```css
+.penguin {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 75px;
+  z-index: 4;
+  position: relative;
+  transition: 1s ease-in-out 0ms;
+}
+```
+
+```css
+.ground {
+  width: 100vw;
+  height: calc(100vh - 300px);
+  background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+  z-index: 3;
+  position: absolute;
+  margin-top: -58px;
+}
+```
