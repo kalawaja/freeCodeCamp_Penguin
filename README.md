@@ -740,44 +740,82 @@ body {
 }
 ```
 
-```css
-
+```html
+        <div class="blush left"></div>
+        <div class="blush right"></div>
 ```
 
 ```css
-
+.blush {
+  width: 15%;
+  height: 10%;
+  background-color: pink;
+}
 ```
 
 ```css
-
+.blush {
+  width: 15%;
+  height: 10%;
+  background-color: pink;
+  top: 65%;
+  border-radius: 50%;
+}
 ```
 
 ```css
+.blush.left {
+  left: 15%;
+}
 
+.blush.right {
+  right: 15%;
+}
+```
+
+```html
+        <div class="beak top"></div>
+        <div class="beak bottom"></div>   
 ```
 
 ```css
-
+.beak {
+  height: 10%;
+  background-color: orange;
+  border-radius: 50%;
+}
 ```
 
 ```css
-
+.beak.top {
+  width: 20%;
+  top: 60%;
+  left: 40%;
+}
 ```
 
 ```css
+.beak.top {
+  width: 20%;
+  top: 60%;
+  left: 40%;
+}
 
+.beak.bottom {
+  width: 16%;
+  top: 65%;
+  left: 42%;
+}
 ```
 
-```css
-
+```html
+      <div class="shirt"></div>
 ```
 
-```css
-
-```
-
-```css
-
+```html
+      <div class="shirt">
+        <div>💜</div>
+      </div>
 ```
 
 ```css
